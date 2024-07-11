@@ -1,0 +1,134 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Стили для шапки */
+header {
+    background-color: #0046be;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Стили для основного контента */
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0046be;
+    text-align: center;
+}
+
+.faq, .stores {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.menu {
+    padding-top: 20px;
+}
+
+.menu a {
+    transition: all .3s linear;
+}
+
+.menu a:hover {
+    color: #0046be;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.faq .question {
+    margin-bottom: 20px;
+}
+
+.faq .question h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.faq .question p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.stores ul {
+    list-style: none;
+    padding: 0;
+}
+
+.stores ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #0046be;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer nav ul li {
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+}
